@@ -11,9 +11,9 @@
  **/
 typedef struct {
     unsigned id;         /** Unique ID **/
-    char* fname;      /** Firstname **/
-    char* lname;      /** Lastname **/
-    char* section;    /** Section **/
+    char fname[64];      /** Firstname **/
+    char lname[64];      /** Lastname **/
+    char section[64];    /** Section **/
     struct tm birthdate; /** Birth date **/
 } student_t;
 
