@@ -1,0 +1,2 @@
+Query 'select fname=Hadrien' completed in  0.196000 ms with 1 results.
+

@@ -1,0 +1,1 @@
+Query 'select fname=Francois' completed in  0.195000 ms with 0 results.

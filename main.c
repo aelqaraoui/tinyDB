@@ -60,6 +60,7 @@ int main()
         if(strcmp(command, "select") == 0)
         {
             int numResults = 0;
+            char result[1024];
             char* rest = strtok_r(NULL, " ", &save);
             char* save1;
             char* champ = strtok_r(rest, "=", &save1);
@@ -71,11 +72,14 @@ int main()
                     if(strcmp(db.data[i].fname, valeur) == 0)
                     {
                         numResults++;
+                        char pl[256];
+                        sprintf(pl, "%u: %s %s in section %s, born on the %d/%d/%d\n", db.data[i].id, db.data[i].fname, db.data[i].lname, db.data[i].section, db.data[i].birthdate.tm_mday, db.data[i].birthdate.tm_mon + 1, db.data[i].birthdate.tm_year + 1900);
+                        strcat(result, pl);
                     }
                 }
             }
             double diff_ms = (clock() - c0) * 1000. / CLOCKS_PER_SEC;
-            fprintf(fptr, " %f ms with %d results.\n", diff_ms, numResults);
+            fprintf(fptr, " %f ms with %d results.\n%s\n", diff_ms, numResults, result);
         }
         if(strcmp(command, "update") == 0)
         {
