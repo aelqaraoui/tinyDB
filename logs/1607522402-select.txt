@@ -1,0 +1,5 @@
+Query 'select section=info' completed in  0.786000 ms with 3 results.
+864030: Hadrien Legast in section info, born on the 30/9/1998
+928453: Fabienne Deschamps in section info, born on the 6/7/1997
+8492742: Anatole Lanegris in section info, born on the 7/5/1999
+

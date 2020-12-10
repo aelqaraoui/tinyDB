@@ -1,0 +1,4 @@
+Query 'select fname=Yassine' completed in  0.775000 ms with 2 results.
+353454: Yassine  in section , born on the 12/12/1999
+353454: Yassine  in section , born on the 12/12/1998
+

@@ -1,0 +1,10 @@
+Query 'delete section=info' completed in  0.906000 ms with 8 results.
+864030: Hadrien Legast in section info, born on the 30/9/1998
+8492742: Anatole Deschamps in section info, born on the 7/5/1999
+111111: Bastien Legast in section info, born on the 12/12/1994
+234556: Corentin Legast in section info, born on the 12/12/1994
+878787: Emeline Legast in section info, born on the 15/4/1993
+472905: Diane Legast in section info, born on the 8/8/1998
+928453: Fabienne Legast in section info, born on the 6/7/1997
+985432: Gaspard Legast in section info, born on the 4/4/1995
+

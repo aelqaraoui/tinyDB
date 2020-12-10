@@ -1,9 +1,17 @@
 #include "db.h"
 #include <stdlib.h> 
+#include <string.h>
 
 void db_add(database_t *db, student_t s)
 {
-    db->data[db->lsize] = s;
+    strcpy(db->data[db->lsize].fname, s.fname);
+    strcpy(db->data[db->lsize].lname, s.lname);
+    strcpy(db->data[db->lsize].section, s.section);
+    db->data[db->lsize].id = s.id;
+    db->data[db->lsize].birthdate.tm_mday = s.birthdate.tm_mday;
+    db->data[db->lsize].birthdate.tm_mon = s.birthdate.tm_mon;
+    db->data[db->lsize].birthdate.tm_year = s.birthdate.tm_year;
+
     (db->lsize)++;
 }
 
@@ -15,8 +23,15 @@ void db_delete(database_t *db, student_t *s)
         if(student_equals(&(db->data[i]), s))
             last = i;
     }
-    for(int i = last; i < db->lsize; i++)
-        db->data[i] = db->data[i+1];
+    for(int i = last; i < db->lsize; i++){
+        strcpy(db->data[i].fname, db->data[i+1].fname);
+        strcpy(db->data[i].fname, db->data[i+1].fname);
+        strcpy(db->data[i].fname, db->data[i+1].fname);
+        db->data[i].id = db->data[i+1].id;
+        db->data[i].birthdate.tm_mday = db->data[i+1].birthdate.tm_mday;
+        db->data[i].birthdate.tm_mon = db->data[i+1].birthdate.tm_mon;
+        db->data[i].birthdate.tm_year = db->data[i+1].birthdate.tm_year;
+    }
     (db->lsize)--;
 }
 

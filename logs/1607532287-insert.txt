@@ -1,0 +1,3 @@
+Query 'insert amine elqaraoui 1234 math 10/11/1998' completed in  0.802000 ms with 1 results.
+1234: amine elqaraoui in section math, born on the 10/11/1998
+

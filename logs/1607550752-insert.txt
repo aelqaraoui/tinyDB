@@ -1,0 +1,3 @@
+Query 'insert amine elqaraoui 1254 info 10/11/1999' completed in  0.694000 ms with 1 results.
+1254: amine elqaraoui in section info, born on the 10/11/1999
+

@@ -1,0 +1,3 @@
+Query 'update lname=Legast set birthdate=11/10/1998' completed in  0.781000 ms with 1 results.
+864030: Hadrien Legast in section info, born on the 11/10/1998
+

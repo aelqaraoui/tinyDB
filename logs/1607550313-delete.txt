@@ -1,0 +1,2 @@
+Query 'delete birthdate=10/11/1999' completed in  0.817000 ms with 0 results.
+

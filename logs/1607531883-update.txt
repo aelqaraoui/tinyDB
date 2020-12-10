@@ -1,0 +1,5 @@
+Query 'update section=info set birthdate=10/11/1999' completed in  0.789000 ms with 3 results.
+864030: Hadrien Legast in section info, born on the 10/11/1999
+928453: Fabienne Deschamps in section info, born on the 10/11/1999
+8492742: Anatole Lanegris in section info, born on the 10/11/1999
+

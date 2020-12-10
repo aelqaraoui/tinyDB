@@ -1,0 +1,4 @@
+Query 'select fname=Yassine' completed in  0.774000 ms with 2 results.
+15613: Yassine Legast in section info, born on the 10/12/1999
+69461: Yassine Durandal in section pharma, born on the 10/12/1945
+
